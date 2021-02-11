@@ -1,11 +1,11 @@
-#Introductory Networking
+# Introductory Networking
 
 
-##Task1:
+## Task1:
 
 No answer needed.
 
-##Task2:
+## Task2:
 
 Which layer would choose to send data over TCP or UDP? (4)
 
@@ -29,7 +29,7 @@ When sending data over TCP, what would you call the "bite-sized" pieces of data?
 
 Which transport layer protocol would be best suited to transmit a live video? (UDP)
 
-##Task3:
+## Task3:
 
 How would you refer to data at layer 2 of the encapsulation process (with the OSI model)? (Frames)
 
@@ -41,7 +41,7 @@ Which is the only layer of the OSI model to add a trailer during encapsulation? 
 
 Does encapsulation provide an extra layer of security (Aye/Nay)? (Aye)
 
-##Task4:
+## Task4:
 
 Which model was introduced first, OSI or TCP/IP? (TCP/IP)
 
@@ -61,7 +61,7 @@ What is the second step of the three way handshake? (SYN/ACK)
 
 What is the short name for the "Acknowledgement" segment in the three-way handshake?(ACK)
 
-##Task5:
+## Task5:
 
 What is the protocol specified in the section of the request that's linked to the Application layer of the OSI and TCP/IP Models? (Domain Name System)
 
@@ -76,7 +76,7 @@ Which layer of the OSI model does the section that shows the number of bytes tra
 
 [Research] Can you figure out what kind of address is shown in the layer linked to the Data Link layer of the OSI model? (MAC)
 
-##Task6:
+## Task6:
 
 What command would you use to ping the bbc.co.uk website? (ping bbc.co.uk)
 
@@ -88,7 +88,7 @@ What switch would allow you to restrict requests to IPv4? (-4)
 
 What switch would give you a more verbose output? (-v)
 
-##Task7:
+## Task7:
 Can you see the path your request has taken? (No answer needed.)
 
 What switch would you use to specify an interface when using Traceroute? (-i)
@@ -97,7 +97,7 @@ What switch would you use if you wanted to use TCP SYN requests when tracing the
 
 [Lateral Thinking] Which layer of the TCP/IP model will traceroute run on by default (Windows)? (internet)
 
-##Task8:
+## Task8:
 Perform a whois search on facebook.com (No answer needed.)
 
 What is the registrant postal code for facebook.com? (94025)
@@ -112,7 +112,7 @@ Which city is the registrant based in? (Redmond)
 
 What is the registered Tech Email for microsoft.com? (msnhst@microsoft.com)
 
-##Task9:
+## Task9:
 
 What is DNS short for? (Domain Name System)
 
@@ -126,6 +126,6 @@ Where is the very first place your computer would look to find the IP address of
 
 If a DNS query has a TTL of 24 hours, what number would the dig query show? (86400)
 
-##Task10:
+## Task10:
 
 Read the final thoughts (No answer needed.)
