@@ -1,10 +1,10 @@
-## *Nmap*
+# *Nmap*
 
-# *Task1: Deploy*
+## *Task1: Deploy*
 
 Deploy the attached VM (No answer needed)
 
-# *Task2: Introduction*
+## *Task2: Introduction*
 What networking constructs are used to direct traffic to the right application on a server? (ports)
 
 How many of these are available on any network-enabled computer? (65535)
@@ -14,7 +14,7 @@ How many of these are available on any network-enabled computer? (65535)
 
 
 
-# *Task3: Nmap Switches*
+## *Task3: Nmap Switches*
 What is the first switch listed in the help menu for a 'Syn Scan' (more on this later!)? (-sS)
 
 Which switch would you use for a "UDP scan"? (-sU)
@@ -48,29 +48,29 @@ How would you activate a script from the nmap scripting library (lots more on th
 How would you activate all of the scripts in the "vuln" category? (--script=vuln)
 
 
-# *Task4: ScanTypes Overview*
+## *Task4: ScanTypes Overview*
 Read the Scan Types Introduction. (No answer needed)
 
 
-# *Task5: ScanTypes TCP Connect Scans*
+## *Task5: ScanTypes TCP Connect Scans*
 Which RFC defines the appropriate behaviour for the TCP protocol? (rfc 793)
 
 If a port is closed, which flag should the server send back to indicate this? (rst)
 
 
-# *Task6: ScanTypes SYN Scans*
+## *Task6: ScanTypes SYN Scans*
 There are two other names for a SYN scan, what are they? (half-open,stealth)
 
 Can Nmap use a SYN scan without Sudo permissions (Y/N)? (n)
 
 
-# *Task7: ScanTypes UDP Scans*
+## *Task7: ScanTypes UDP Scans*
 If a UDP port doesn't respond to an Nmap scan, what will it be marked as? (open|filtered)
 
 When a UDP port is closed, by convention the target should send back a "port unreachable" message. Which protocol would it use to do so? (icmp)
 
 
-# *Task8: ScanTypes NULL,FIN and XMAS*
+## *Task8: ScanTypes NULL,FIN and XMAS*
 Which of the three shown scan types uses the URG flag? (xmas)
 
 Why are NULL, FIN and Xmas scans generally used? (firewall evasion)
@@ -78,33 +78,33 @@ Why are NULL, FIN and Xmas scans generally used? (firewall evasion)
 Which common OS may respond to a NULL, FIN or Xmas scan with a RST for every port? (Microsoft Windows)
 
 
-# *Task9: ScanTypes ICMP Network Scanning*
+## *Task9: ScanTypes ICMP Network Scanning*
 How would you perform a ping sweep on the 172.16.x.x network (Netmask: 255.255.0.0) using Nmap? (CIDR notation) (nmap -sn 172.16.0.0/16)
 
-# *Task10: NSEScripts OverView*
+## *Task10: NSEScripts OverView*
 What language are NSE scripts written in? (lua)
 
 Which category of scripts would be a very bad idea to run in a production environment? (intrusive)
 
-# *Task11: NSEScripts Working with the NSE*
+## *Task11: NSEScripts Working with the NSE*
 
 What optional argument can the ftp-anon.nse script take? (maxlist)
 
 
-# *Task12: NSEScripts Searching for Scripts*
+## *Task12: NSEScripts Searching for Scripts*
 
 What is the filename of the script which determines the underlying OS of the SMB server? (smb-os-discovery.nse)
 
 Read through this script. What does it depend on? (smb-brute)
 
 
-# *Task13: Firewall Evasion*
+## *Task13: Firewall Evasion*
 
 Which simple (and frequently relied upon) protocol is often blocked, requiring the use of the -Pn switch? (icmp)
 
 [Research] Which Nmap switch allows you to append an arbitrary length of random data to the end of packets? (--data-length)
 
-# *Task14: Practical*
+## *Task14: Practical*
 Does the target (10.10.60.142)respond to ICMP (ping) requests (Y/N)? (n)
 
 Perform an Xmas scan on the first 999 ports of the target -- how many ports are shown to be open or filtered? (999)
@@ -119,6 +119,6 @@ Open Wireshark (see Cryillic's Wireshark Room for instructions) and perform a TC
 Deploy the ftp-anon script against the box. Can Nmap login successfully to the FTP server on port 21? (Y/N) (Y)
 
 
-# *Task15: Conclusion*
+## *Task15: Conclusion*
 
 Read the conclusion. (No answer needed)
